@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | AIR MARINE Drone Services</title>
+  <meta name="description" content="Request a mission: location/port, service type, time window, urgency. We respond with a plan and availability (MED + WAF)." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+</div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="AIR MARINE Home">
+        <div class="mark">AM</div>
+        <div class="txt">
+          <div class="t">AIR MARINE Drone Services</div>
+          <div class="s">Maritime inspection & operational supervision</div>
+        </div>
+      </a>
+
+      <nav class="menu" aria-label="Primary navigation">
+        <a class="" href="services.html">Services</a>
+        <a class="" href="use-cases.html">Use Cases</a>
+        <a class="" href="deliverables.html">Deliverables</a>
+        <a class="" href="partners.html">Partners</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+
+      <a class="btn primary" href="contact.html">Availability 24–48h</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Request a mission</h2>
+    <p class="sub">Share 5 key items and we respond with a scope proposal and availability (MED + WAF).</p>
+
+    <div class="split" style="margin-top:16px">
+      <div class="form">
+        <form id="missionForm">
+          <div class="row">
+            <div>
+              <label>Company / Name</label>
+              <input name="name" required placeholder="e.g., Company / Contact name" />
+            </div>
+            <div>
+              <label>Email</label>
+              <input name="email" required type="email" placeholder="you@company.com" />
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:12px">
+            <div>
+              <label>Phone / WhatsApp</label>
+              <input name="phone" placeholder="+34 …" />
+            </div>
+            <div>
+              <label>Port / Location</label>
+              <input name="location" required placeholder="e.g., Algeciras / Valencia / Lagos / Malabo" />
+            </div>
+          </div>
+
+          <div class="row" style="margin-top:12px">
+            <div>
+              <label>Service</label>
+              <select name="service" required>
+                <option value="">Select…</option>
+                <option>A) Maritime Visual Inspection (External)</option>
+                <option>B) Operational Supervision (MWS support)</option>
+                <option>C) Internal Inspection (with partner)</option>
+                <option>D) Commercial / Vessel Sale Media Pack</option>
+                <option>Other / Define scope</option>
+              </select>
+            </div>
+            <div>
+              <label>Time window / urgency</label>
+              <input name="date" required placeholder="e.g., 23–24 Feb / urgent 24–48h" />
+            </div>
+          </div>
+
+          <div style="margin-top:12px">
+            <label>Brief scope</label>
+            <textarea name="details" rows="5" placeholder="Operation type, objective, constraints, access/permitting notes, if streaming/chain-of-custody is required, etc."></textarea>
+          </div>
+
+          <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:14px">
+            <button class="btn primary" type="submit">Send request</button>
+            <a class="btn ghost" href="mailto:operations@airmarine.keelcore">Email instead</a>
+          </div>
+
+          <div class="helper">
+            Local preview mode: submitting opens your email client with a pre-filled message.
+            In production, connect this to a backend (or a form provider) for direct submission.
+          </div>
+        </form>
+      </div>
+
+      <div class="aside">
+        <div class="k">Direct contact</div>
+        <div class="v" style="margin-top:10px">
+          <div style="font-weight:900">operations@airmarine.keelcore</div>
+          <div style="margin-top:10px; color:rgba(229,231,235,.75); font-size:13px">
+            Coverage: <b>MED + WAF</b><br/>
+            Typical delivery: <b>24–72h</b><br/>
+            Optional: live streaming, chain-of-custody, express delivery.
+          </div>
+        </div>
+
+        <div class="notice" style="margin-top:14px">
+          <b>Disclaimer:</b> AIR MARINE does not issue technical certifications.
+          Signed technical reports are delivered via partners.
+        </div>
+
+        <a class="btn ghost" href="legal/disclaimer.html" style="margin-top:12px">Read disclaimer</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <img src="assets/logo.svg" alt="AIR MARINE Drone Services" style="max-width:320px; width:100%; height:auto;" />
+        <div style="margin-top:10px; color:rgba(229,231,235,.72); font-size:13px">
+          A KEELCORE group unit. Initial coverage: <b>MED + WAF</b>.
+        </div>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <a href="services.html">Services</a>
+        <a href="use-cases.html">Use Cases</a>
+        <a href="deliverables.html">Deliverables</a>
+        <a href="partners.html">Partners</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="legal/disclaimer.html">Disclaimer</a>
+        <a href="legal/privacy.html">Privacy</a>
+        <a href="legal/cookies.html">Cookies</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:operations@airmarine.keelcore">operations@airmarine.keelcore</a>
+        <a href="contact.html">Mission request form</a>
+      </div>
+    </div>
+    <div class="hr"></div>
+    <div class="smallprint">© 2026 AIR MARINE Drone Services (KEELCORE). All rights reserved.</div>
+  </div>
+</footer>
+
+
+<script>
+  const FORM_TO = "operations@airmarine.keelcore";
+  document.getElementById("missionForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const fd = new FormData(e.target);
+
+    const subject = `[AIR MARINE] Mission request - ${fd.get("service") || "Inquiry"}`;
+    const body =
+`Hello AIR MARINE (KEELCORE),
+
+Mission request:
+
+- Company/Name: ${fd.get("name")}
+- Email: ${fd.get("email")}
+- Phone/WhatsApp: ${fd.get("phone") || "-"}
+- Port/Location: ${fd.get("location")}
+- Service: ${fd.get("service")}
+- Time window / urgency: ${fd.get("date")}
+
+Scope notes:
+${fd.get("details") || "-"}
+
+Options:
+- Live streaming required? (yes/no)
+- Chain-of-custody required? (yes/no)
+- Signed technical report required? (yes/no) -> if yes, indicate preferred partner or request proposal
+
+Best regards,
+${fd.get("name")}
+`;
+
+    const mailto = `mailto:${encodeURIComponent(FORM_TO)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
+  });
+</script>
+</body>
+</html>
