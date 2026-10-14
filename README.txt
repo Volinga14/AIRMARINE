@@ -1,13 +1,18 @@
-AIR MARINE Drone Services — Static Website (Offline-ready) v4 (Marine/Tech palette)
+AIR MARINE Drone Services — Beta October 2026
 
-Updates:
-- Removed top header bar
-- Removed "FAST • SAFE • TRACEABLE" pill
-- Hero background image behind the first section (assets/hero_bg_1.jpg)
-- Videos moved into "What we deliver" box and play sequentially forever
-- Add more videos by editing the data-playlist attribute in index.html:
-  data-playlist="assets/drone_demo_1.mp4,assets/drone_demo_2.mp4,assets/drone_demo_3.mp4"
+Static GitHub Pages website. Open index.html directly or serve the repository root.
+No build step, external fonts, tracking, form backend or dependencies are required.
 
-How to open:
-- Double-click index.html
-- Or run: python -m http.server 8080
+New assets and implementation: assets/beta/
+Existing concept imagery and MP4 clips are reused and labelled as illustrative.
+Legacy page URLs redirect to the corresponding sections on the new home page.
+
+The pilot tool downloads a local text brief. It does not send or store submissions.
+No class approval, appointed classification partner, completed client missions,
+response SLA or confirmed geographic availability is claimed in this beta.
+
+Content to revisit after the Bureau Veritas meeting:
+- Initial service scope and approval pathway
+- Operator and technical partner arrangements
+- Pilot criteria and operational readiness
+- Verified business contact details before enabling enquiries
