@@ -1,18 +1,15 @@
-AIR MARINE Drone Services — Beta October 2026
+AIR MARINE — Multipage beta October 2026
 
-Static GitHub Pages website. Open index.html directly or serve the repository root.
-No build step, external fonts, tracking, form backend or dependencies are required.
+Static GitHub Pages website. No build step or external runtime dependencies.
+Author pages with: python3 tools/build_site.py
+Media generation notes: MEDIA.md
 
-New assets and implementation: assets/beta/
-Existing concept imagery and MP4 clips are reused and labelled as illustrative.
-Legacy page URLs redirect to the corresponding sections on the new home page.
+Pages: index, services, inspection, operations, imagery, use-cases,
+deliverables, partners, contact and privacy.
+Shared CSS/JS and generated illustrative imagery: assets/site/.
+Client-side enquiry builder: review, edit, copy and download a local text brief.
+No form submission, database, analytics or cookies are implemented.
+Confirm the business contact channel before enabling online enquiries.
 
-The pilot tool downloads a local text brief. It does not send or store submissions.
-No class approval, appointed classification partner, completed client missions,
-response SLA or confirmed geographic availability is claimed in this beta.
-
-Content to revisit after the Bureau Veritas meeting:
-- Initial service scope and approval pathway
-- Operator and technical partner arrangements
-- Pilot criteria and operational readiness
-- Verified business contact details before enabling enquiries
+Generated imagery is illustrative and not a record of completed client projects.
+Approval and specialist partner requirements remain subject to project scoping.
